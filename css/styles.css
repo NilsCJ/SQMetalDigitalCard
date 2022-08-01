@@ -134,7 +134,7 @@ body {
 .content-information{
     margin-top: 20px;
     text-decoration:none;
-
+    background-color: rgba(83, 83, 83, 0.1);
 }
 .personalName{
     font-family: 'Always Lovely Normal';
@@ -142,23 +142,73 @@ body {
 }
 
 .containerBackground{
-    background-image: '../images/ofice.jpg';
-    width: 100%;
+    /*background-image: url('images/ofice.jpg');*/
+    background-image: url('../images/weldingCard.jpg');
     height: 100%;
-    background: none repeat;
-    
+    width: 100%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */  
 }
 
 
+.logo{
+    margin-top: 25px;
+}
 
+.hidden-insta, .hidden-face, .hidden-phone, .hidden-mail{
+    visibility: hidden;
+    font-size: 20px;
+}
 
+a{
+    text-decoration: none;
+}
 
-
+.infogmail, .infoFace, .infoInsta, .infoPhone{
+    color: #000;
+}
 
 @media (max-width: 900px){
     .card{
         width: 80%;
         height: 80%;
+    }
+    .mailInfo{
+        font-size: 13px;
+    }
+    .infogmail{
+        margin-left: 5px;
+    }
+    .infoFace{
+        margin-left: 10px;
+    }
+    .infoInsta{
+        margin-left: 70px;
+    }
+    .infoPhone{
+        margin-left: 150px;
+    }
+    .personalName{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 370px){
+    .mailInfo{
+        font-size: 13px;
+    }
+    .infogmail{
+        margin-left: 5px;
+    }
+    .infoFace{
+        margin-left: 10px;
+    }
+    .infoInsta{
+        margin-left: 20px;
+    }
+    .infoPhone{
+        margin-left: 50px;
     }
     
 }
