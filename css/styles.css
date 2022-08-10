@@ -16,7 +16,7 @@ body {
 .card {
     position: relative;
     width: 400px;
-    height: 500px;
+    height: 700px;
     border-radius: 10px;
     box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
     margin: 40px;
@@ -187,10 +187,15 @@ a{
         margin-left: 70px;
     }
     .infoPhone{
-        margin-left: 150px;
+        margin-left: 100px;
     }
     .personalName{
         font-size: 30px;
+    }
+    .qr{
+        height: 100px;
+        width: 109px;
+
     }
 }
 
